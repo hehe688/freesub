@@ -5,16 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: 188.114.97.6
+  server: 104.18.26.14
   port: 443
   udp: true
-  type: trojan
-  password: humanity
-  sni: www.pleadcourt.org
+  type: vless
+  uuid: 3c6d1933-b22a-484b-ac8a-63e24f5fba75
+  tls: true
+  servername: server14.9966338.xyz
   skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /assignment
+    path: /ujhgfytsrtw563675eud
+    headers:
+      Host: server14.9966338.xyz
 proxy-groups:
 - name: PROXIES
   type: select
