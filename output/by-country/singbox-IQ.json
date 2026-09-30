@@ -5,20 +5,24 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 01 (家宽) - xiaohe",
-      "server": "cdnjs.com",
+      "tag": "🇮🇶 IQ 01 - xiaohe",
+      "server": "188.114.97.7",
       "server_port": 443,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "uuid": "ba49d874-fe02-465d-82d3-ed981dc7694f",
       "tls": {
         "enabled": true,
-        "server_name": "77yku.ngw0.4j6.hh.vavava.kdns.fr",
-        "insecure": false
+        "server_name": "o94Yv7LIF0-aNXISd9eFehvvS7mxn6bH.Z-ULe-iKa-d-e-ne-K-e.wORkeRs.Dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport": {
         "type": "ws",
-        "path": "/?ed=2560",
+        "path": "/7J5lLqtBnJg9WjVT?ed",
         "headers": {
-          "Host": "77yku.ngw0.4j6.hh.vavava.kdns.fr"
+          "Host": "o94yv7lif0-anxisd9efehvvs7mxn6bh.z-ule-ika-d-e-ne-k-e.workers.dev"
         }
       }
     },
@@ -27,14 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇦 加拿大 (Canada) 01 (家宽) - xiaohe"
+        "🇮🇶 IQ 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇦 加拿大 (Canada) 01 (家宽) - xiaohe"
+        "🇮🇶 IQ 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
