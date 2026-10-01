@@ -6,48 +6,7 @@
     {
       "type": "hysteria2",
       "tag": "🇹🇼 中国台湾 (Taiwan) 01 - xiaohe",
-      "server": "103.115.109.49",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "https:",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 02 - xiaohe",
-      "server": "x-tw01.xueshan168.cc",
-      "server_port": 16000,
-      "uuid": "cf20ac54-9c77-4fec-b2b6-bcf8223aa4d5",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "s0.awsstatic.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "CuqzBeQR_1VIdOGOgn5v8-t-X-YzURF9b3wtKVVyKQ8",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 03 - xiaohe",
-      "server": "165.154.195.38",
-      "server_port": 35034,
-      "uuid": "959a8caf-4cea-43d0-a548-3628e7ddfafc",
-      "security": "auto"
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 04 - xiaohe",
-      "server": "vpn-tw-002.fastervpn.world",
+      "server": "160.187.100.109",
       "server_port": 443,
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
@@ -57,8 +16,28 @@
       }
     },
     {
+      "type": "vmess",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 02 - xiaohe",
+      "server": "165.154.195.38",
+      "server_port": 35034,
+      "uuid": "959a8caf-4cea-43d0-a548-3628e7ddfafc",
+      "security": "auto"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 03 - xiaohe",
+      "server": "103.115.109.49",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "tls": {
+        "enabled": true,
+        "server_name": "https://t.me/wangcai2",
+        "insecure": true
+      }
+    },
+    {
       "type": "vless",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 05 - xiaohe",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 04 - xiaohe",
       "server": "60.248.219.78",
       "server_port": 443,
       "uuid": "c1c04450-bf71-4049-ad0c-9cf6d94d9f1f",
@@ -83,8 +62,7 @@
         "🇹🇼 中国台湾 (Taiwan) 01 - xiaohe",
         "🇹🇼 中国台湾 (Taiwan) 02 - xiaohe",
         "🇹🇼 中国台湾 (Taiwan) 03 - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 04 - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 05 - xiaohe"
+        "🇹🇼 中国台湾 (Taiwan) 04 - xiaohe"
       ]
     },
     {
@@ -94,8 +72,7 @@
         "🇹🇼 中国台湾 (Taiwan) 01 - xiaohe",
         "🇹🇼 中国台湾 (Taiwan) 02 - xiaohe",
         "🇹🇼 中国台湾 (Taiwan) 03 - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 04 - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 05 - xiaohe"
+        "🇹🇼 中国台湾 (Taiwan) 04 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
